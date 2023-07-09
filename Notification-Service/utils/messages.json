@@ -1,0 +1,17 @@
+{
+  "error": {
+    "routeNotExist" : "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "server": {
+      "getNotifications": "Retrieving notifications failed, please try again",
+      "receiveMessages": "Error receiving messages"
+    },
+    "authentication": "Authentication failed!",
+    "authorization": "You are not authorized to make this action",
+    "getNotifications": "You are not able to get the notifications",
+    "updateNotification": "Failed to update notification",
+    "saveNotification": "Failed to save notification"
+  },
+  "success": {
+  }
+}

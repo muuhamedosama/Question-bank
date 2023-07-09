@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "baseUri": "/api/notifications",
+    "endpoints": {
+      "getUserNotifications": "/getusernotifications"
+    } 
+  }
+}
