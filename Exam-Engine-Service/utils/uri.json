@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "baseUri": "/api/exam",
+    "endpoints": {
+      "createExamDefinition": "/",
+      "assignExam": "/assignexam/:examDefinitionId",
+      "submitExam": "/submitexam/:examDefinitionId",
+      "takeExam": "/takeexam/:examDefinitionId",
+      "getExamDefintions": "/getexams",
+      "getStudentExams": "/getstudentexams"
+    } 
+  }
+}

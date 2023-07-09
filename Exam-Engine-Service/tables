@@ -1,0 +1,21 @@
+CREATE TABLE examdefinition(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  passingScore INTEGER DEFAULT 50,
+  questions VARCHAR(255)[] 
+);
+
+  CREATE TABLE examinstance(
+    id SERIAL PRIMARY KEY,
+    examdefinition_id INTEGER REFERENCES examdefinition(id), 
+    startedTime TIME DEFAULT NULL, 
+    endTime TIME DEFAULT NULL,
+    duration INTERVAL DEFAULT '1 hours',
+    completionTime TIME GENERATED ALWAYS AS (startedTime + duration) STORED,
+    generatedLink JSONB, 
+    createdBy VARCHAR(255),
+    takenBy VARCHAR(255),
+    examStatus VARCHAR(255) CHECK (examStatus IN ('absent', 'taken')),
+    questions JSONB,
+    grade DOUBLE PRECISION
+  );

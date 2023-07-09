@@ -1,0 +1,10 @@
+{
+  "durations": {
+    "tenDays": 10,
+    "oneHour": 1
+  },
+  "status": {
+    "taken": "taken",
+    "absent": "absent"
+  }
+}

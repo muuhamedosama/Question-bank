@@ -1,0 +1,27 @@
+ {
+  "error": {
+    "routeNotExist": "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "authentication": "Authentication failed!",
+    "createExam": "You are not able to create an exam",
+    "getExams": "You are not able to get the exams",
+    "assignExam": "You are not able to assign an exam",
+    "takeExam": "You are not able to take the exam",
+    "retakeExam": "Students are not able to retake an exam",
+    "examNotExist": "Could not find an exam",
+    "submitExam": "You are not able to submit the exam",
+    "server": {
+      "createExam": "Creating exam failed, please try again",
+      "getExams": "Fetching exams failed, please try again",
+      "assignExam": "Assigning exam failed, please try again",
+      "takeExam": "Taking exam failed, please try again",
+      "submitExam": "Submitting exam failed, please try again",
+      "sendMessage": "Error sending message"
+    }
+  },
+  "success": {
+    "createExam": "Exam Successfully created!",
+    "assignExam": "Successfully assigned!",
+    "submitExam": "Successfully submitted!"
+  }
+}
