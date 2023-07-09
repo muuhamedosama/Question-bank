@@ -1,0 +1,10 @@
+{
+  "paths": {
+    "baseUri": "/api/users",
+    "endpoints": {
+      "signup": "/signup",
+      "login": "/login",
+      "getStudents": "/getstudents"
+    } 
+  }
+}

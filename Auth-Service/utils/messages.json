@@ -1,0 +1,21 @@
+ {
+  "error": {
+    "routeNotExist" : "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "createAdmin": "Creating admin failed",
+    "createSuperadmin": "You are not able to create super admin",
+    "createAdminAuth": "Only super admin can create an admin",
+    "server": {
+      "signup": "Signing up failed, please try again",
+      "login": "Logging in failed, please try again"
+    },
+    "userExist": "Username already exists",
+    "invalidCredentials": "Invalid credentials, could not log you in",
+    "fetchingStudents": "Fetching students failed",
+    "authorization": "Authorization failed!"
+  },
+  "success": {
+    "signup": "You have successfully signed up",
+    "login": "You have successfully logged in"
+  }
+}
