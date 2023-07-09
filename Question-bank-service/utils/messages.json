@@ -1,0 +1,31 @@
+{
+  "error": {
+    "routeNotExist": "Could not find this route",
+    "unknown": "An unknown error occurred!",
+    "authentication": "Authentication failed!",
+    "authorization": "You are not authorized to make this action",
+    "createQuestion": "You are not able to create a question",
+    "oneCorrectAnswer": "At least one answer should be correct!",
+    "twoAnswers": "Each question should have at least two answers",
+    "questionNotExist": "Could not find question",
+    "getQuestions": "You are not able to get the questions",
+    "updateQuestion": "You are not able to update this question",
+    "deleteQuestion": "You are not able to delete a question",
+    "server": {
+      "createQuestion": "Creating question failed, please try again",
+      "getQuestion": "Finding question failed, please try again",
+      "updateQuestion": "Updating question failed, please try again",
+      "deleteQuestion": "Deleting question failed, please try again",
+      "createAnswer": "Creating answer failed, please try again",
+      "deleteAnswer": "Deleting answer failed, please try again",
+      "getAnwsers": "Finding answers failed, please try again"
+    },
+    "answerNotExist": "Could not find answer",
+    "deleteAnswer": "You are not able to delete this answer",
+    "getAnswers": "Could not find answers for the provided question"
+  },
+  "success": {
+    "updateQuestion": "Successfully updated!",
+    "deleted": "Successfully deleted!"
+  }
+}

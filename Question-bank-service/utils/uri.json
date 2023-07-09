@@ -1,0 +1,22 @@
+{
+  "paths": {
+    "questionsPaths": {
+      "baseUri": "/api/questions",
+      "endpoints": {
+        "createQuestion": "/create",
+        "getExamQuestions": "/getexamquestions",
+        "getAllQuestions": "/get/all",
+        "updateQuestion": "/update/:questionId",
+        "deleteQuestion": "/deletequestion/:questionId"
+      } 
+    },
+    "answersPaths": {
+      "baseUri": "/api/answers",
+      "endpoints": {
+        "addAnswer": "/addanswer/:questionId",
+        "deleteAnswer": "/deleteanswer/:answerId",
+        "getAnswers":"/getanswers/:questionId"
+      } 
+    }
+  }
+}
