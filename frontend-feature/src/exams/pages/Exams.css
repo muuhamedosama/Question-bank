@@ -1,0 +1,67 @@
+.assign-exam{
+  display: flex;
+  gap: 10px;
+}
+
+.exam-instance{
+  display: flex;
+  gap: 50px;
+}
+
+.take-exam,
+.submit-answers
+{
+  padding: .5em 1em;
+  background-color: #6b9080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.exam-answers-wrapper{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.answer{
+  flex: .5;
+  text-align: left;
+}
+
+.checkbox{
+  width:15px;
+}
+
+.submit-answers{
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+button:disabled:hover{
+  transform: scale(1);
+}
+
+.submit-exam-btn{
+  background-image: linear-gradient(to left, #768948, #607744);
+}
+
+.countdown{
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 60px;
+}
+
+.date-options{
+  max-width: 30%
+}
